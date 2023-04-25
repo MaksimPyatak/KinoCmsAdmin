@@ -5,6 +5,7 @@
          <h1>
             Home page
          </h1>
+         <RouterLink to="/about-cinema">About</RouterLink>
          <!--<p>
          Country: {{ name }}<br>
          Capital: {{ capital }}
@@ -22,6 +23,7 @@
 
 <script setup>
 import { ref, onMounted } from "vue";
+import { RouterLink } from 'vue-router'
 //import { collection, addDoc, doc, setDoc, updateDoc, getDoc, getDocs, query, where } from "firebase/firestore"
 //import db from '../../firebase/init.js'
 import LayoutFrame from "@/features/layout-frame/LayoutFrame.vue";
