@@ -1,0 +1,15 @@
+@import '@/app/styles/main.css';
+@import '@/app/styles/base.css';
+@import '@/app/styles/nullstyle.css';
+@import '@/app/styles/mixins.scss';
+//import adminlte styles
+@import './public/adminlte/dist/css/adminlte.min.css';
+@import "@/../public/adminlte/plugins/fontawesome-free/css/all.min.css";
+@import "./public/adminlte/plugins/summernote/summernote-bs4.min.css";
+@import "./public/adminlte/plugins/daterangepicker/daterangepicker.css";
+@import "./public/adminlte/plugins/jqvmap/jqvmap.min.css";
+@import "./public/adminlte/plugins/icheck-bootstrap/icheck-bootstrap.min.css";
+@import "./public/adminlte/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css";
+@import "./public/adminlte/plugins/bootstrap4-duallistbox/bootstrap-duallistbox.min.css";
+@import "./public/adminlte/plugins/bs-stepper/css/bs-stepper.min.css";
+@import "./public/adminlte/plugins/dropzone/min/dropzone.min.css";

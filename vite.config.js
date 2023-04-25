@@ -11,5 +11,15 @@ export default defineConfig({
       alias: {
          '@': fileURLToPath(new URL('./src', import.meta.url))
       }
+   },
+   // Імпортує файли SCSS для доступу до міксинів. Можливо і для отримання інших можливостей SCSS
+   css: {
+      preprocessorOptions: {
+         scss: {
+            additionalData: ` // just variables loaded globally
+            @import "./src/app/styles/mixins";
+            `
+         }
+      }
    }
 })
