@@ -14,6 +14,12 @@ export const routes = [
       component: () => import('@/pages/about-cinema/AboutCinema.vue')
    },
    {
+      path: '/all-films',
+      name: 'all-films',
+      meta: { layout: 'main' },
+      component: () => import('@/pages/all-films/AllFilms.vue')
+   },
+   {
       path: '/login',
       name: 'login',
       component: () => import('../pages/LoginPage.vue')

@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o,c}from"./index-07d66ccf.js";const t={};function n(r,a){return o(),c("div",null," About-cinema ")}const m=e(t,[["render",n]]);export{m as default};
