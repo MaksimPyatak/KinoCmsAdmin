@@ -20,6 +20,12 @@ export const routes = [
       component: () => import('@/pages/all-films/AllFilms.vue')
    },
    {
+      path: '/all-news',
+      name: 'all-news',
+      meta: { layout: 'main' },
+      component: () => import('@/pages/all-news/AllNews.vue')
+   },
+   {
       path: '/login',
       name: 'login',
       component: () => import('../pages/LoginPage.vue')
