@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{o,c as s,a as t}from"./index-b1e14fc7.js";const c={},n=t("h1",null,"All News Page",-1),r=[n];function a(_,l){return o(),s("div",null,r)}const i=e(c,[["render",a]]);export{i as default};
